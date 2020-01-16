@@ -21,8 +21,10 @@
 			<h1>We<br>Are<br>ESPRIT.</h1>
 			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros </p>
 			<button type="button"><a href="mailto:marketing@dptechnology.com">Let's Talk</a></button>
-			<aside>
-				<img src="images/hero_2.jpg">
+			<aside class="slider">
+				<aside><img src="images/hero_2.jpg"></aside>
+				<aside><img src="images/hero_10.jpg"></aside>
+				<aside><img src="images/hero_11.jpg"></aside>
 			</aside>
 		</main>
 
@@ -55,7 +57,28 @@
 			</ul>
 
 		</footer>
-		<script type="text/javascript" src="vendors/slick/slick.js"></script>
+
+		<script 
+			type="text/javascript" 
+			src="vendors/slick/slick.js"
+		></script>
+		<script
+            type="text/javascript"
+            src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"
+        ></script>
+        <script
+            type="text/javascript"
+            src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+        ></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $(".slider").slick({
+                    dots: true,
+                    infinite: false,
+                    speed: 300,
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+         </script>
 
 	</body>
 
