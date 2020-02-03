@@ -59,21 +59,26 @@ a {
 	font-weight: 300;
 	letter-spacing: .15em;
 	text-decoration: none;
-	text-transform: uppercase;
+	/*text-transform: uppercase; */
 }
 
 header {
 	background-color: #FFED74; /* test color */
 }
 
-.topnav {
-	background-color: #E8C66A; /* test color */
-	text-align: right;
-}
+
 
 main {
 	background-color: #FFC675; /* test color */
+	/* width: 670px; */
 
+}
+
+
+section { 
+	width: 1200px;
+	background-color: #FFED74;
+	margin: auto;
 }
 
 footer {
@@ -86,21 +91,52 @@ li {
 	font-weight: 300;
 	letter-spacing: .15em;
 	text-decoration: none;
+	list-style-type: none;
 	text-transform: lowercase;
 }
 
-
-
-section { 
-	width: 1200px;
-	background-color: #FFED74;
+nav {
+	background-color: #E8C66A; /* test color */
+	/* text-align: right; */
+	float: right;
+	padding: 36px;
 }
 
-.process {
-	background-color: #FFC675; /* test color */
-
+nav a:link {
+	color: #4A4D56; /* dark gray */
+	font-weight: 300;
+	letter-spacing: .15em;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 2px;
+	margin: 15px;
 }
 
+nav a:visited {
+	color: #4A4D56; /* dark gray */
+}
+
+nav a:hover {
+	border-bottom: 2px solid #CF0A2C;
+}
+
+nav a:active {
+	color: #CF0A2C;
+	border-bottom: 2px solid #CF0A2C;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	height: 1px;
+	font-size: 0;
+	content: " ";
+	display: block;
+	clear: both;
+}
+
+.intro {
+	width: 670px;
+}
 
 .button {
 	background-color: #CF0A2C; /* Red */
@@ -108,23 +144,41 @@ section {
 	font-size: 20px;
 	font-weight: 300;
 	letter-spacing: .15em;
+	text-transform: uppercase;
 	text-decoration: none;
 	border: none;
 	padding: 15px 30px;
 }
 
-
-
-.navlinks {
-	color: #4A4D56; /* dark gray */
-	font-weight: 300;
-	letter-spacing: .15em;
-	text-decoration: none;
-	text-transform: uppercase;
+.process { 
+	width: 200px;
+	margin: auto;
 }
 
+#process1 {
+	background-color: orange; /* test color */
+	float: left;
+}
+
+#process2 {
+	background-color: blue; /* test color */
+	float: left;
+
+}
+
+#process3 {
+	background-color: pink; /* test color */
+	float: left;
+
+}
+
+
+
+
+
+
 .wrapper {
-	background-color: #FF957E; /* test color */
+	background-color: green; /* test color */
 
 }
 
