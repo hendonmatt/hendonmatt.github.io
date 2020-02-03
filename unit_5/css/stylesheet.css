@@ -69,7 +69,7 @@ header {
 
 
 main {
-	background-color: #FFC675; /* test color */
+	/*	background-color: #FFC675; /* test color */
 	/* width: 670px; */
 
 }
@@ -150,13 +150,21 @@ nav a:active {
 	padding: 15px 30px;
 }
 
+.slick-slider {
+	position: absolute;
+	top: 0px;
+	z-index: -1;
+}
+
 .process { 
-	width: 200px;
-	margin: auto;
+	width: 407px;
+	height: 380px;
+/*	margin: auto; */
 }
 
 #process1 {
-	background-color: orange; /* test color */
+	background-image: url("../images/process_discovery.png");
+/*	background-color: orange; /* test color */
 	float: left;
 }
 
@@ -172,14 +180,20 @@ nav a:active {
 
 }
 
+h3.process-discovery {
+	position:relative;
+	top:73%;
+}
+
+
+
 
 
 
 
 
 .wrapper {
-	background-color: green; /* test color */
-
+/*	background-color: green; /* test color */
 }
 
 
